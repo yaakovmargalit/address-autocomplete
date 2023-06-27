@@ -1,0 +1,44 @@
+.il-city-list{
+position: absolute;
+background-color: white;
+width: 100%;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.il-city-list li{
+    border-bottom: 1px solid rgba(182, 182, 182, 0.519);
+    padding: 8px;
+    list-style-type: none;
+}
+
+.il-city-list li:hover{
+    background-color: rgba(208, 208, 208, 0.484);
+    cursor: pointer;
+}
+
+:has(.il-city-list) {
+    position: relative;
+  }
+
+
+.il-street-list{
+position: absolute;
+background-color: white;
+width: 100%;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.il-street-list li{
+    border-bottom: 1px solid rgba(182, 182, 182, 0.519);
+    padding: 8px;
+    list-style-type: none;
+}
+
+.il-street-list li:hover{
+    background-color: rgba(208, 208, 208, 0.484);
+    cursor: pointer;
+}
+
+:has(.il-street-list) {
+    position: relative;
+  }
